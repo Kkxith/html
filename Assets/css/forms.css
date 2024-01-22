@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    background-color: lightyellow;
+    font-family: "Tahoma";
+    text-decoration: underline;
+}
+form{
+    font-family: "Tahoma";
+    text-align: center;
+    background-color: lightsalmon;
+    border-radius: 50px;
+    margin-inline: 410px;
+    padding-block: 20px;
+}
+body{
+    background-color: lightyellow;
+}

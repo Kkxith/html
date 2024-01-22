@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assets/css/myform.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form>
+<div id="Form-container">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <br>
+      <div class="form-group">
+        <label for="id">ID:</label>
+        <input type="number" id="id" name="id" maxlength="10" required>
+    </div>
+    <br>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a strong password" minlength="8" required>
+    </div>
+    <br>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+          <select name="Gender" id="gender">
+              <option value="gender">Male</option>
+              <option value="gender">Female</option>
+              <option value="gender">Other</option>
+              <option value="gender">Prefer not to say</option>
+          </select>
+    </div>
+    <br>
+      <div class="form-group">
+          <label>Interests:</label>
+      </div>
+    <div>
+          <input type="checkbox"id="Interests1" name="Intrests1">
+          <label for="Interests1">Coding</label>
+          <input type="checkbox"id="Interests2" name="Interests2">
+          <label for="Interests2">Football</label>
+          <input type="checkbox"id="Interests3" name="Interests3">
+          <label for="Interests3">Hockey</label>
+          <input type="checkbox"id="Interests4" name="Interests4">
+          <label for="Interests4">Monopoly</label>
+          <input type="checkbox" id="Interests4" name="Interests4">
+      </div>
+    <br>
+          <div class="form-group">
+              <label>Choose a programming language:</label>
+              <label for="lang1">Kotlin</label>
+              <input type="radio" id="lang1" name="language1" value="Kotlin">
+              <label for="lang2">Python</label>
+              <input type="radio" id="lang2" name="language2">
+              <label for="lang3">Java</label>
+              <input type="radio" id="lang3" name="language3">
+              <label for="lang4">Django</label>
+              <input type="radio" id="lang4" name="language4">
+          </div>
+    <br>
+    <div class="form-group">
+        <label for="message">Additional Info:</label>
+        <textarea name="meessage" id="message"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="Submit">
+    </div>
+</form>
+
+
+
+
+
+
+</body>
+</html>

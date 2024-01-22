@@ -1,0 +1,37 @@
+body{
+    background-color: darkgreen;
+    font-family: "Poppins";
+    margin: 0px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20pt;
+}
+#Form-container{
+    font-family: "Poppins";
+    border-radius: 20px;
+    margin-inline: 120px;
+    padding-block: 40px;
+    background-color: lightgreen;
+    width: 500px;
+    font-size: 20pt;
+}
+label {
+    font-family: "Poppins";
+    text-align: left;
+    font-size: 20pt;
+}
+input{
+    text-align: center;
+    font-size: 20pt;
+
+}
+button{
+    background-color: azure;
+    color: darkgreen;
+    align-items: center;
+}
+a:hover {
+  background-color: yellow;
+}

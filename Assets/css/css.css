@@ -1,0 +1,12 @@
+table{
+    width: 100%;
+}
+th,td{
+    border:double 10px aliceblue;
+    font-family: Algerian;
+    font-size: 20px;
+
+}
+body{
+    background-color: beige;
+};;
